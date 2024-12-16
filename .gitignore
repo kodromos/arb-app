@@ -1,0 +1,14 @@
+# Ignorar arquivos e pastas do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos do ambiente virtual
+venv/
+
+# Configurações locais do IDE
+.idea/
+.vscode/
+
+# Outros arquivos ocultos
+.DS_Store

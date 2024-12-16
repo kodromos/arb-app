@@ -1,7 +1,6 @@
-# services/binance.py
 import requests
 
-BASE_URL = "https://api.binance.com/api/v3/ticker/bookTicker"
+BASE_URL = "https://api.mercadobitcoin.net/api/v4/ticker/"
 
 async def get_prices(tokens):
     prices = {}
